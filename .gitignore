@@ -5,9 +5,7 @@ __pycache__/
 *.pyd
 *.egg-info/
 
-# Virtual environment
-.venv/
-venv/
+
 
 # Jupyter
 .ipynb_checkpoints/
