@@ -5,7 +5,12 @@ __pycache__/
 *.pyd
 *.egg-info/
 
-
+# Environments
+.env/
+venv/
+env/
+.venv/
+*.venv/
 
 # Jupyter
 .ipynb_checkpoints/

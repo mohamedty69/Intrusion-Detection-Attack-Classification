@@ -1,0 +1,9 @@
+filename,rows,benign_count,attack_counts,missing,infinity,duplicates
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,225745,97718,"{""DDoS"": 128027}",4,64,2633
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,286467,127537,"{""PortScan"": 158930}",15,727,72353
+Friday-WorkingHours-Morning.pcap_ISCX.csv,191033,189067,"{""Bot"": 1966}",28,216,6888
+Monday-WorkingHours.pcap_ISCX.csv,529918,529918,{},64,810,26935
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,288602,288566,"{""Infiltration"": 36}",18,396,35630
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,170366,168186,"{""Web Attack \ufffd Brute Force"": 1507, ""Web Attack \ufffd XSS"": 652, ""Web Attack \ufffd Sql Injection"": 21}",20,250,6066
+Tuesday-WorkingHours.pcap_ISCX.csv,445909,432074,"{""FTP-Patator"": 7938, ""SSH-Patator"": 5897}",201,327,24065
+Wednesday-workingHours.pcap_ISCX.csv,692703,440031,"{""DoS Hulk"": 231073, ""DoS GoldenEye"": 10293, ""DoS slowloris"": 5796, ""DoS Slowhttptest"": 5499, ""Heartbleed"": 11}",1008,1586,81909
