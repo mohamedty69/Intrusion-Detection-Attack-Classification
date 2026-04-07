@@ -108,3 +108,12 @@ Use a stratified split by label and keep file/time awareness to reduce leakage:
 Reason: CICIDS2017 traffic is time-ordered and attack scenarios cluster by day. Random row split can leak near-duplicate flows and inflate metrics.
 
 If you prefer row-level split instead of day-level holdout, use stratified 70/15/15 by Label after deduplication.
+## DAY_2 Report: Cleaned & Combined Overall Summary
+- Dropped Duplicates: Redundant and identical rows were dropped across the dataset.
+- Handled Infinite Values: Converted all 
+p.inf and -np.inf values to NaN.
+- Imputed Missing Data: Replaced all NaN values in numeric datasets with the robust column-wise median().
+- Transformed Label Target: Replaced multi-class individual attacks into a binary classification label `isAttack` (0 = BENIGN, 1 = Attack) and removed the original Label string column.
+- Combined Dataset Export: Concatenated all raw individual CSV files into a unified dataset: `../data/processed/combined_dataset.csv`.
+- Overall Dataset Size After Drop Duplicates: 2,574,264 Rows.
+
